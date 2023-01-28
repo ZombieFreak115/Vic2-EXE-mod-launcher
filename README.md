@@ -22,6 +22,8 @@
  
  You can then use the GUI to select which mods from the folder you'd want to load. Then you run the Launcher.py and start witht he mods it will launch the regular Vic2 launcher, where you can then also select which "regular" mods you want to load.
  
+ I have included 2 EXE mods i have made in the "examplemods" folder in the download aswell. Simply put em in your exemods folder and select to run them.
+ 
  Keep in mind to NOT close the program while Vic2 is running, or else it won't be able to restore your exe back to normal again.
  ## Documentation
  
@@ -32,7 +34,7 @@
  ```
  desc="This mod fixes a basegame oddity in which brigades in a stack will reinforce less and less the bigger the stack is if you are below 100% supply, now they will all reinforce as if they were individual brigades"
 
-\#NOP's out the instruction which tells the game to  put the variable in for the next brigade in stack, effectively making all brigades act as if they are the 1st one
+#NOP's out the instruction which tells the game to  put the variable in for the next brigade in stack, effectively making all brigades act as if they are the 1st one
 
 1C809B={\x90}
 
