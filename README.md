@@ -70,3 +70,6 @@ So how does it work? Some of you may have noticed it isn't a typical code inject
 The reason i used this method instead of the usual process injection, is because code/dll injection does not seem to affect the checksum when done in runtime, whereas executable changes does. This is obv. fine for singleplayer and testing, but for stuff which requires consistent checksums it can be a huge issue, and also opens the possibility of cheating (since its the same checksum no matter what you have loaded)
 
 A side-effect of this is you have to have it running in the backround while playing, so that when the game is quit it can automatically restore the unmodded exe.
+
+
+If you encounter any bugs or glitches, feel free to either make an issue here on github or DM me on discord Zombie_Freak115#4532
