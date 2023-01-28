@@ -29,6 +29,7 @@
  
  The "exemods" are really just textfiles with byte overrides to the exectutable code, here i will explain the (very simple) format and syntax
  
+ 
  A typical exe mod may look like this:
  
  ```
@@ -44,6 +45,7 @@
 
 1C809E={\x90}
 ```
+As you can see, it also supports Python-style comments
 
 In the first line, we can see a description, which is shown in the launcher when selected. The syntax is desc="description here".
 
