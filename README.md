@@ -22,7 +22,11 @@
  
  You can then use the GUI to select which mods from the folder you'd want to load. Then you run the Launcher.py and start witht he mods it will launch the regular Vic2 launcher, where you can then also select which "regular" mods you want to load.
  
- I have included 2 EXE mods i have made in the "examplemods" folder in the download aswell. Simply put em in your exemods folder and select to run them.
+ I have included 2 EXE mods i have made in the "examplemods" folder in the download aswell. Simply put em in your exemods folder and select to run them. The included mods are:
+
+- A change to combat rolls, so only an interval between 4 and 5 can be rolled.
+
+- A reinforce change mod, which makes it so land reinforcement is always proportional to the % of supply you are getting (normally it has a really wierd system, too lengthy to explain here)
  
  Keep in mind to NOT close the program while Vic2 is running, or else it won't be able to restore your exe back to normal again.
  ## Documentation
