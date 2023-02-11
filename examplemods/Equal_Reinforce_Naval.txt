@@ -1,0 +1,5 @@
+desc="NAVAL UNITS ONLY! This mod fixes a basegame oddity in which ships in a stack will reinforce less and less the bigger the stack is if you are below 100% supply, now they will all reinforce as if they were individual ships"
+
+#Changes the instruction to move the "normal" supply value back and override the lower one in the next ship in the stack
+
+1C7F1C={\x8b}
