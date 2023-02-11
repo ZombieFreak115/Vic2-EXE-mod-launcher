@@ -14,8 +14,6 @@ import atexit
 elevate()  # elevates to admin rights to be able to write to v2 exe
 
 
-
-
 def write_bytes(offset, fixed_byte):
     with open("v2game.exe", 'r+b') as f:
         f.seek(int(offset, 16))
