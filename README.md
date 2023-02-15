@@ -26,7 +26,9 @@
 
 - A change to combat rolls, so only an interval between 4 and 5 can be rolled.
 
-- A reinforce change mod, which makes it so land reinforcement is always proportional to the % of supply you are getting (normally it has a really wierd system, too lengthy to explain here)
+- A reinforce change mod, which makes it so land and naval reinforcement is always proportional to the % of supply you are getting (normally it has a really wierd system, too lengthy to explain here)
+
+- A mod that makes the effect of "debug alwaysaddwargoals" permanently active at all times, for always being able to add wargoals no matter what in MP.
  
  Keep in mind to NOT close the program while Vic2 is running, or else it won't be able to restore your exe back to normal again.
  ## Documentation
