@@ -37,7 +37,7 @@ desc="Patches combat rolls to only be between 4 and 5."
 
 #subroutine in code cave
 88851D={\xb9}
-88851E={\x02}
+88851E={\x03} # range of rolls value
 88851F={\x00}
 888520={\x00}
 888521={\x00}
@@ -45,5 +45,5 @@ desc="Patches combat rolls to only be between 4 and 5."
 888523={\xf9}
 888524={\x83}
 888525={\xc2}
-888526={\x04}
+888526={\x03} # minimum roll value
 888527={\xc3}
