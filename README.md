@@ -2,8 +2,12 @@
  A launcher for vic2 which allows the launching of EXE mods, made in Python.
  
  ## Installation
+
+You can either run the compiled .exe or the .py:
+
+To run the exe, copy the exemods folder and launcher.exe to your Vic2 directory, then simply launch launcher.exe. If it dosent work you may need to install Visal c++ redist: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
  
- To install, download the newest (or any after 3.8) version of Python for your OS here: https://www.python.org/downloads/.
+ To use the Python one, download the newest (or any after 3.8) version of Python for your OS here: https://www.python.org/downloads/.
  Make sure you do a **Custom Install** and checkmark the following features: 
  - Add python to PATH
  - pip
