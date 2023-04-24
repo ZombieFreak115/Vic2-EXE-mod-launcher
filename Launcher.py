@@ -10,6 +10,8 @@ import pyparsing as pp
 from pathlib import Path
 from elevate import elevate
 import atexit
+from pymem import Pymem
+import pymem
 
 elevate()  # elevates to admin rights to be able to write to v2 exe
 
@@ -60,14 +62,22 @@ def parse_mods_desc(list_of_mod_names):
     return desc_list
 
 
-def process_exists(process_name): # checks if process exists, shamelessly stolen (;
-    call = 'TASKLIST', '/FI', 'imagename eq %s' % process_name
+#def process_exists(process_name): # checks if process exists, shamelessly stolen (;
+    #call = 'TASKLIST', '/FI', 'imagename eq %s' % process_name
     # use buildin check_output right away
-    output = subprocess.check_output(call).decode()
+    #output = subprocess.check_output(call).decode()
     # check in last line for process name
-    last_line = output.strip().split('\r\n')[-1]
+    #last_line = output.strip().split('\r\n')[-1]
     # because Fail message could be translated
-    return last_line.lower().startswith(process_name.lower())
+    #return last_line.lower().startswith(process_name.lower())
+
+def process_exists(process_name):
+    try:
+        pm = Pymem(process_name)
+        return True
+
+    except:
+        return False
 
 
 def process_exists_loop(name, sleep, BoolParam):
