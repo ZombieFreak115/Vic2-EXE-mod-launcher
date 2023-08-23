@@ -1,4 +1,0 @@
-desc="Enables debug alwaysaddwargoal permanently, also works in MP games for easy adding of wargoals!"
-
-
-137EFF={\x02}
